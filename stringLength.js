@@ -30,6 +30,8 @@ Check to see if your program is correct by running this command:
 javascripting verify stringLength.js
 */
 (function(){
+	'use strict';
+	
 	var example = 'example string';
 	console.log(example.length);
 })();

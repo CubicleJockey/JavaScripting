@@ -39,6 +39,8 @@ Check to see if your program is correct by running this command:
 javascripting verify forLoop.js
 */
 (function(){
+	'use strict';
+	
 	var total = 0;
 	var limit = 10;
 	

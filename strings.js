@@ -29,6 +29,8 @@ javascripting verify strings.js
 
 */
 (function(){
+	'use strict';
+	
 	var someString = 'this is a string';
 	console.log(someString);
 })();

@@ -40,6 +40,8 @@ Check to see if your program is correct by running this command:
 javascripting verify accessingArrayValues.js
 */
 (function(){
+	'use strict';
+	
 	var food = ['apple', 'pizza', 'pear'];
 	console.log(food[1]);
 })();

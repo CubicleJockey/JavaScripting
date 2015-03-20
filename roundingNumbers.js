@@ -29,6 +29,8 @@ Check to see if your program is correct by running this command:
 javascripting verify roundingNumbers.js
 */
 (function(){
+	'use strict';
+	
 	var roundUp = 1.5;
 	roundUp = Math.round(roundUp);
 	console.log(roundUp);

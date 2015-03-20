@@ -42,6 +42,8 @@ Check to see if your program is correct by running this command:
 javascripting verify arrayFiltering.js
 */
 (function(){
+	'use strict';
+	
 	var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 	var filtered = numbers.filter(evenNumbers);
 	
