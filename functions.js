@@ -37,6 +37,8 @@ javascripting verify functions.js
 
 */
 (function(){
+	'use strict';
+	
 	var food = 'bananas';
 	var result = eat(food);
 	console.log(result);

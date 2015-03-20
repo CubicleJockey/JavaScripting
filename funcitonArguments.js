@@ -40,6 +40,7 @@ Check to see if your program is correct by running this command:
 javascripting verify functionArguments.js
 */
 (function(){
+	'use strict';
 	
 	console.log(math(53, 61, 67));
 	

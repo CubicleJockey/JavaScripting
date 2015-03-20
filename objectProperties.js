@@ -41,6 +41,8 @@ javascripting verify objectProperties.js
 
 */
 (function(){
+	'use strict';
+	
 	var food = {
 		types: 'only pizza'
 	};

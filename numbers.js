@@ -18,6 +18,8 @@ Check to see if your program is correct by running this command:
 javascripting verify numbers.js
 */
 (function(){
+	'use strict';
+	
 	var example = 123456789;
 	console.log(example);
 })();

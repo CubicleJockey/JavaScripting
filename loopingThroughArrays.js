@@ -41,6 +41,8 @@ Check to see if your program is correct by running this command:
 javascripting verify loopingThroughArrays.js
 */
 (function(){
+	'use strict';
+	
 	var pets = ['cat', 'dog', 'rat'];
 	for(var i = 0; i < pets.length; i++){
 		pets[i] = pets[i].concat('s');

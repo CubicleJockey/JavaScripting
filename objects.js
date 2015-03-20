@@ -30,6 +30,8 @@ Check to see if your program is correct by running this command:
 javascripting verify objects.js
 */
 (function(){
+	'use strict';
+	
 	var pizza = {
 		toppings: ['cheese', 'sauce', 'pepperoni'],
 		crust: 'deep dish',

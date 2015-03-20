@@ -24,6 +24,8 @@ Check to see if your program is correct by running this command:
 javascripting verify numberToString.js
 */
 (function(){
+	'use strict';
+	
 	var n = 128;
 	var converted = n.toString();
 	console.log(converted);

@@ -32,6 +32,8 @@ Check to see if your program is correct by running this command:
 javascripting verify revisingStrings.js
 */
 (function(){
+	'use strict';
+	
 	var pizza = 'pizza is alright';
 	pizza = pizza.replace('alright', 'wonderful');
 	console.log(pizza);
